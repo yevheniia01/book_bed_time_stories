@@ -1,3 +1,10 @@
+body{
+    background-image: url("./images-thumbnails/purple-stars-background_1844312.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
 .container-fluid{
     padding: 0px;
 }
