@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .container-fluid{
     padding: 0px;
@@ -13,7 +13,21 @@ img{
 }
 h1{
     text-align: center;
+    color: white;
 }
 .carousel-col{
     padding: 0px;
+}
+button{
+    background-color: white;
+    border: 1px purple solid;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+footer{
+    color: black;
+    background: white;
+    text-align: center;
+    margin-top: 10px;
 }
