@@ -16,6 +16,7 @@ footer{
     background: white;
     text-align: center;
     margin-top: 10px;
+    font-family: 'Niconne', cursive;
 }
 .navbar-brand{
     font-family: 'Niconne', cursive;
@@ -25,30 +26,16 @@ footer{
     font-family: 'Handlee', cursive;
 }
 #headerH1{
+    text-shadow: 4px 2px 8px #ffe300;
     text-align: center;
     font-size: 100px;
     font-family: 'Niconne', cursive;
   color: #fff;
   text-align: center;
-  -webkit-animation: headerH1 1s ease-in-out infinite alternate;
-  -moz-animation: headerH1 1s ease-in-out infinite alternate;
-  animation: headerH1 1s ease-in-out infinite alternate;
+  
 }
 
-@-webkit-keyframes headerH1 {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6c700, 0 0 40px #e6b900, 0 0 50px #dbe600, 0 0 60px #e6af00, 0 0 70px #e6b100;    }
-    
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ffab4d, 0 0 40px #ffad4d, 0 0 50px #ffcc4d, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;    }
-  }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .card-text{
-        font-size: 10px;
-    }
-} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
