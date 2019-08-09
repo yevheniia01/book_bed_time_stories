@@ -1,0 +1,12 @@
+.container-fluid{
+    padding: 0px;
+}
+img{
+    max-height: 605px;
+}
+h1{
+    text-align: center;
+}
+.carousel-col{
+    padding: 0px;
+}
